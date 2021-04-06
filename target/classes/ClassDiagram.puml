@@ -1,0 +1,196 @@
+@startuml
+
+enum SelectionPolicy
+{
+ SHORTEST_QUEUE
+ SHORTEST_TIME
+}
+
+interface Strategy
+{
++addTask()
+}
+
+class ConcreteStrategyQueue
+{
++addTask()
+}
+
+SelectionPolicy<|--ConcreteStrategyQueue
+SelectionPolicy<|--ConcreteStrategyTime
+
+class ConcreteStrategyTime
+{
++addTask()
+}
+
+class Scheduler
+{
+-servers
+-threads
+-maxNoOfServers
+-maxTasksPerServer
+-strategy
+
++Scheduler
++initializeServers()
++changeStrategy()
++dispatchTask()
++closeThreads()
+}
+
+class Server
+{
+-tasks
+-waitingPeriod
+-simulationWindow
+-valuesINeed
++addTask()
++run()
+}
+
+
+Interface Runnable
+{
+}
+Scheduler *.. Server
+Scheduler *.. Strategy
+Server <|- Runnable
+
+
+class SimulationManager
+{
+-simulationWindow
+-simulationWindow
++timeLimit
++maxProcessingTime
++minProcessingTime
++maxArrivalTime
++minArrivalTime
++numberOfServers
++numberOfClients
++maxNbOfClientsPerQueue
++selectionPolicy
+-scheduler
+-generatedTasks
+-parametersSelectionWindow
+-start()
++main()
+-generateNRandomTasks()
++run()
+-writeLog()
+
+}
+
+class Thread
+{
+}
+
+SimulationManager <|-- Runnable
+SimulationManager *.. SimulationWindow
+SimulationManager *.. Thread
+SimulationManager *.. SelectionPolicy
+SimulationManager *.. Scheduler
+SimulationManager *.. Task
+SimulationManager *.. ParametersSelectionWindow
+
+class SimulationWindow
+{
+
+-iconSizeX = 40;
+-iconSizeY = 40;
+-xSize = 1200;
+-ySize = 700;
+-maxNbOfClients = 40;
+-maxNbOfQueues = 40;
+-mainFrame;
+-mainPanel;
+-queue;
+-scrollPane;
+-queuePanel;
+-parametersPanel;
+-averageWaitingTime;
+-averageServiceTime;
+-peakTime;
+-status;
+-imageIconClient;
+-imageIconCheckOut;
+-placeHolder;
+
+-initializeMatrix()
+-setGridBagLayoutWeight()
+-initializeParametersPane()
+-getScaledImage()
+-updateQueues()
+}
+
+class Task
+{
+-arrivalTime
+-processingTime
+-id
+}
+
+class ParametersSelectionWindow
+{
+-xSize
+-ySize
+-mainFrame
+-parameters
+-mainPanel
+-parametersPanel
+-selectionPanel
+-startSimulationButton
+-selectionPolicy
+
+-initializeSelections()
+-addSelectionsToPanel()
+-initializeParametersTextFields()
+-addParametersToPanel()
+-addActionListener()
+
+}
+
+class ValuesINeed
+{
++totalWaitingTime
++nbOfProcessedClients
++totalServiceTime
+}
+
+interface GenerateRandomNumberInRange
+{
++getRandomNumber()
+}
+
+enum Parameters
+{
+timeLimit,
+    maxProcessingTime
+    minProcessingTime
+    maxArrivalTime
+    minArrivalTime
+    numberOfServers
+    numberOfClients
+    maxNbOfClientsPerQueue
+}
+
+enum Status
+{
+ ON
+ OFF
+}
+
+Server *.. ValuesINeed
+SimulationManager *.. ValuesINeed
+SimulationManager o-- WriteToFile
+SimulationManager o-- GenerateRandomNumberInRange
+SimulationManager *.. Parameters
+ParametersSelectionWindow *.. Parameters
+SimulationManager *.. Status
+SimulationWindow *.. Status
+Interface WriteToFile
+{
++write()
+}
+@enduml

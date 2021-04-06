@@ -1,0 +1,165 @@
+Time: 0
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 1
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 2
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 3
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 4
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 5
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 6
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 7
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 8
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 9
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 10
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 11
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 12
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 13
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 14
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 15
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 16
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 17
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 18
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 19
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 20
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 21
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 22
+Waiting List: (1,23,3) (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 23
+Waiting List: (4,24,3) (2,28,3) (3,29,3) 
+Queue 1: (1,23,3) 
+Queue 2: 
+
+Time: 24
+Waiting List: (2,28,3) (3,29,3) 
+Queue 1: (1,23,2) 
+Queue 2: (4,24,3) 
+
+Time: 25
+Waiting List: (2,28,3) (3,29,3) 
+Queue 1: (1,23,1) 
+Queue 2: (4,24,2) 
+
+Time: 26
+Waiting List: (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: (4,24,1) 
+
+Time: 27
+Waiting List: (2,28,3) (3,29,3) 
+Queue 1: 
+Queue 2: 
+
+Time: 28
+Waiting List: (3,29,3) 
+Queue 1: (2,28,3) 
+Queue 2: 
+
+Time: 29
+Waiting List: 
+Queue 1: (2,28,2) 
+Queue 2: (3,29,3) 
+
+Time: 30
+Waiting List: 
+Queue 1: (2,28,1) 
+Queue 2: (3,29,2) 
+
+Time: 31
+Waiting List: 
+Queue 1: 
+Queue 2: (3,29,1) 
+
+Time: 32
+Waiting List: 
+Queue 1: 
+Queue 2: 
+

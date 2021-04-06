@@ -1,0 +1,60 @@
+Time: 0
+Waiting List: (2,1,2) (3,1,2) (4,1,2) (1,2,2) (6,2,2) (5,3,1) 
+Queue 1: 
+Queue 2: 
+
+Time: 1
+Waiting List: (1,2,2) (6,2,2) (5,3,1) 
+Queue 1: (2,1,2) (4,1,2) 
+Queue 2: (3,1,2) 
+
+Time: 2
+Waiting List: (5,3,1) 
+Queue 1: (2,1,1) (4,1,2) (6,2,2) 
+Queue 2: (3,1,1) (1,2,2) 
+
+Time: 3
+Waiting List: 
+Queue 1: (4,1,2) (6,2,2) 
+Queue 2: (1,2,2) (5,3,1) 
+
+Time: 4
+Waiting List: 
+Queue 1: (4,1,1) (6,2,2) 
+Queue 2: (1,2,1) (5,3,1) 
+
+Time: 5
+Waiting List: 
+Queue 1: (6,2,2) 
+Queue 2: (5,3,1) 
+
+Time: 7
+Waiting List: 
+Queue 1: (6,2,1) 
+Queue 2: 
+
+Time: 0
+Waiting List: (1,1,1) (5,1,2) (2,2,2) (4,2,1) (3,3,2) (6,3,2) 
+Queue 1: 
+Queue 2: 
+
+Time: 1
+Waiting List: (2,2,2) (4,2,1) (3,3,2) (6,3,2) 
+Queue 1: (1,1,1) 
+Queue 2: (5,1,2) 
+
+Time: 2
+Waiting List: (3,3,2) (6,3,2) 
+Queue 1: (2,2,2) 
+Queue 2: (4,2,1) 
+
+Time: 3
+Waiting List: 
+Queue 1: (3,3,2) 
+Queue 2: (6,3,2) 
+
+Time: 4
+Waiting List: 
+Queue 1: 
+Queue 2: 
+

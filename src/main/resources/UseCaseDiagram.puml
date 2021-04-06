@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+
+
+User --> (Select Parameters)
+(Select Parameters) <. (Running Simulation) : includes
+(Running Simulation) <. (View Live Simulation) : includes
+User ---> (View Live Simulation)
+(View Logs) ..> (Running Simulation) : includes
+User -> (View Logs)
+
+@enduml

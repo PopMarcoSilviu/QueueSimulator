@@ -94,3 +94,129 @@ Queue 1:
 Queue 2: 
 Queue 3: 
 
+Time: 0
+Waiting List: (4,2,2) (8,6,3) (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (9,0,2) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 1
+Waiting List: (4,2,2) (8,6,3) (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (9,0,1) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 2
+Waiting List: (8,6,3) (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (4,2,2) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 3
+Waiting List: (8,6,3) (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (4,2,1) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 4
+Waiting List: (8,6,3) (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 5
+Waiting List: (8,6,3) (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 6
+Waiting List: (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (8,6,3) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 7
+Waiting List: (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (8,6,2) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 8
+Waiting List: (2,9,2) (10,9,2) (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (8,6,1) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 9
+Waiting List: (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (2,9,2) 
+Queue 2: (10,9,2) 
+Queue 3: 
+Queue 4: 
+
+Time: 10
+Waiting List: (1,11,2) (6,11,2) (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (2,9,1) 
+Queue 2: (10,9,1) 
+Queue 3: 
+Queue 4: 
+
+Time: 11
+Waiting List: (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (1,11,2) 
+Queue 2: (6,11,2) 
+Queue 3: 
+Queue 4: 
+
+Time: 12
+Waiting List: (5,13,4) (7,13,3) (3,14,2) 
+Queue 1: (1,11,1) 
+Queue 2: (6,11,1) 
+Queue 3: 
+Queue 4: 
+
+Time: 13
+Waiting List: (3,14,2) 
+Queue 1: (5,13,4) 
+Queue 2: (7,13,3) 
+Queue 3: 
+Queue 4: 
+
+Time: 14
+Waiting List: 
+Queue 1: (5,13,3) 
+Queue 2: (7,13,2) 
+Queue 3: (3,14,2) 
+Queue 4: 
+
+Time: 15
+Waiting List: 
+Queue 1: (5,13,2) 
+Queue 2: (7,13,1) 
+Queue 3: (3,14,1) 
+Queue 4: 
+
+Time: 16
+Waiting List: 
+Queue 1: (5,13,1) 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+
+Time: 17
+Waiting List: 
+Queue 1: 
+Queue 2: 
+Queue 3: 
+Queue 4: 
+

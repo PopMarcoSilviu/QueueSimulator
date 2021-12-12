@@ -42,13 +42,6 @@ public class SimulationManager implements Runnable
         simulationWindow = new SimulationWindow(parametersSelectionWindow.getValue(Parameters.numberOfClients),
                 parametersSelectionWindow.getValue(Parameters.numberOfServers));
         t.start();
-//        try
-//        {
-//            t.join();
-//        } catch (InterruptedException e)
-//        {
-//            e.printStackTrace();
-//        }
     }
 
     public static void main(String[] args)
